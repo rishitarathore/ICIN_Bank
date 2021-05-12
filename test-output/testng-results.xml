@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-12T22:54:10Z" name="AllTests" finished-at="2021-05-12T22:58:58Z" duration-ms="287164">
+    <groups>
+    </groups>
+    <test started-at="2021-05-12T22:54:10Z" name="Register" finished-at="2021-05-12T22:54:38Z" duration-ms="27188">
+      <class name="org.simplilearn.workshop.user.userRegisterTest">
+        <test-method signature="userRegister()[pri:0, instance:org.simplilearn.workshop.user.userRegisterTest@68f4865]" started-at="2021-05-12T22:54:22Z" name="userRegister" finished-at="2021-05-12T22:54:38Z" duration-ms="15988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegister -->
+      </class> <!-- org.simplilearn.workshop.user.userRegisterTest -->
+      <class name="org.simplilearn.workshop.admin.adminRegisterTest">
+        <test-method signature="adminRegister()[pri:0, instance:org.simplilearn.workshop.admin.adminRegisterTest@5717c37]" started-at="2021-05-12T22:54:11Z" name="adminRegister" finished-at="2021-05-12T22:54:22Z" duration-ms="11130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminRegister -->
+      </class> <!-- org.simplilearn.workshop.admin.adminRegisterTest -->
+    </test> <!-- Register -->
+    <test started-at="2021-05-12T22:54:38Z" name="User KYC" finished-at="2021-05-12T22:55:29Z" duration-ms="51541">
+      <class name="org.simplilearn.workshop.admin.adminKycTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:org.simplilearn.workshop.admin.adminKycTest@68dc098b]" started-at="2021-05-12T22:54:38Z" name="login" finished-at="2021-05-12T22:54:47Z" duration-ms="9314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="kycAccept()[pri:1, instance:org.simplilearn.workshop.admin.adminKycTest@68dc098b]" started-at="2021-05-12T22:54:47Z" name="kycAccept" finished-at="2021-05-12T22:55:04Z" duration-ms="16987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kycAccept -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:org.simplilearn.workshop.admin.adminKycTest@68dc098b]" started-at="2021-05-12T22:55:04Z" name="endTest" finished-at="2021-05-12T22:55:08Z" duration-ms="3688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.simplilearn.workshop.admin.adminKycTest@68dc098b]" started-at="2021-05-12T22:55:08Z" name="login" finished-at="2021-05-12T22:55:17Z" duration-ms="8998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="kycReject()[pri:2, instance:org.simplilearn.workshop.admin.adminKycTest@68dc098b]" started-at="2021-05-12T22:55:17Z" name="kycReject" finished-at="2021-05-12T22:55:26Z" duration-ms="8841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kycReject -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:org.simplilearn.workshop.admin.adminKycTest@68dc098b]" started-at="2021-05-12T22:55:26Z" name="endTest" finished-at="2021-05-12T22:55:29Z" duration-ms="3701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- org.simplilearn.workshop.admin.adminKycTest -->
+    </test> <!-- User KYC -->
+    <test started-at="2021-05-12T22:55:29Z" name="User Portal" finished-at="2021-05-12T22:57:43Z" duration-ms="133630">
+      <class name="org.simplilearn.workshop.user.userDashboardTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:org.simplilearn.workshop.user.userDashboardTest@301eda63]" started-at="2021-05-12T22:55:29Z" name="login" finished-at="2021-05-12T22:55:37Z" duration-ms="7843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="deposit()[pri:1, instance:org.simplilearn.workshop.user.userDashboardTest@301eda63]" started-at="2021-05-12T22:55:37Z" name="deposit" finished-at="2021-05-12T22:55:42Z" duration-ms="5256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deposit -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.simplilearn.workshop.user.userDashboardTest@301eda63]" started-at="2021-05-12T22:55:42Z" name="logout" finished-at="2021-05-12T22:55:47Z" duration-ms="4429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.simplilearn.workshop.user.userDashboardTest@301eda63]" started-at="2021-05-12T22:55:47Z" name="login" finished-at="2021-05-12T22:55:54Z" duration-ms="7156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="withdraw()[pri:2, instance:org.simplilearn.workshop.user.userDashboardTest@301eda63]" started-at="2021-05-12T22:55:54Z" name="withdraw" finished-at="2021-05-12T22:55:59Z" duration-ms="5268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withdraw -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.simplilearn.workshop.user.userDashboardTest@301eda63]" started-at="2021-05-12T22:55:59Z" name="logout" finished-at="2021-05-12T22:56:04Z" duration-ms="4696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.simplilearn.workshop.user.userDashboardTest@301eda63]" started-at="2021-05-12T22:56:04Z" name="login" finished-at="2021-05-12T22:56:11Z" duration-ms="6776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="transfer()[pri:3, instance:org.simplilearn.workshop.user.userDashboardTest@301eda63]" started-at="2021-05-12T22:56:11Z" name="transfer" finished-at="2021-05-12T22:56:16Z" duration-ms="5601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transfer -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.simplilearn.workshop.user.userDashboardTest@301eda63]" started-at="2021-05-12T22:56:16Z" name="logout" finished-at="2021-05-12T22:56:21Z" duration-ms="4819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.simplilearn.workshop.user.userDashboardTest@301eda63]" started-at="2021-05-12T22:56:21Z" name="login" finished-at="2021-05-12T22:56:28Z" duration-ms="7001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="requestCheckBook()[pri:4, instance:org.simplilearn.workshop.user.userDashboardTest@301eda63]" started-at="2021-05-12T22:56:28Z" name="requestCheckBook" finished-at="2021-05-12T22:56:33Z" duration-ms="5066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestCheckBook -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.simplilearn.workshop.user.userDashboardTest@301eda63]" started-at="2021-05-12T22:56:33Z" name="logout" finished-at="2021-05-12T22:56:38Z" duration-ms="4615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.simplilearn.workshop.user.userDashboardTest@301eda63]" started-at="2021-05-12T22:56:38Z" name="login" finished-at="2021-05-12T22:56:45Z" duration-ms="7099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="transactionHistory()[pri:5, instance:org.simplilearn.workshop.user.userDashboardTest@301eda63]" started-at="2021-05-12T22:56:45Z" name="transactionHistory" finished-at="2021-05-12T22:56:49Z" duration-ms="3561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transactionHistory -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.simplilearn.workshop.user.userDashboardTest@301eda63]" started-at="2021-05-12T22:56:49Z" name="logout" finished-at="2021-05-12T22:56:53Z" duration-ms="4708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.simplilearn.workshop.user.userDashboardTest@301eda63]" started-at="2021-05-12T22:56:53Z" name="login" finished-at="2021-05-12T22:57:00Z" duration-ms="7020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="transferHistory()[pri:6, instance:org.simplilearn.workshop.user.userDashboardTest@301eda63]" started-at="2021-05-12T22:57:00Z" name="transferHistory" finished-at="2021-05-12T22:57:04Z" duration-ms="3552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transferHistory -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.simplilearn.workshop.user.userDashboardTest@301eda63]" started-at="2021-05-12T22:57:04Z" name="logout" finished-at="2021-05-12T22:57:08Z" duration-ms="4549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.simplilearn.workshop.user.userDashboardTest@301eda63]" started-at="2021-05-12T22:57:08Z" name="login" finished-at="2021-05-12T22:57:15Z" duration-ms="6931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="editProfile()[pri:7, instance:org.simplilearn.workshop.user.userDashboardTest@301eda63]" started-at="2021-05-12T22:57:15Z" name="editProfile" finished-at="2021-05-12T22:57:21Z" duration-ms="5673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editProfile -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.simplilearn.workshop.user.userDashboardTest@301eda63]" started-at="2021-05-12T22:57:21Z" name="logout" finished-at="2021-05-12T22:57:26Z" duration-ms="4801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.simplilearn.workshop.user.userDashboardTest@301eda63]" started-at="2021-05-12T22:57:26Z" name="login" finished-at="2021-05-12T22:57:33Z" duration-ms="6951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="changePassword()[pri:8, instance:org.simplilearn.workshop.user.userDashboardTest@301eda63]" started-at="2021-05-12T22:57:33Z" name="changePassword" finished-at="2021-05-12T22:57:38Z" duration-ms="5316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePassword -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.simplilearn.workshop.user.userDashboardTest@301eda63]" started-at="2021-05-12T22:57:38Z" name="logout" finished-at="2021-05-12T22:57:43Z" duration-ms="4907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- org.simplilearn.workshop.user.userDashboardTest -->
+    </test> <!-- User Portal -->
+    <test started-at="2021-05-12T22:57:43Z" name="Admin Portal" finished-at="2021-05-12T22:58:58Z" duration-ms="74652">
+      <class name="org.simplilearn.workshop.admin.adminDashboardTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:org.simplilearn.workshop.admin.adminDashboardTest@455b6df1]" started-at="2021-05-12T22:57:43Z" name="login" finished-at="2021-05-12T22:57:52Z" duration-ms="8997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="selectFeature()[pri:1, instance:org.simplilearn.workshop.admin.adminDashboardTest@455b6df1]" started-at="2021-05-12T22:57:52Z" name="selectFeature" finished-at="2021-05-12T22:57:57Z" duration-ms="5177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFeature -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:org.simplilearn.workshop.admin.adminDashboardTest@455b6df1]" started-at="2021-05-12T22:57:57Z" name="endTest" finished-at="2021-05-12T22:58:01Z" duration-ms="3474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.simplilearn.workshop.admin.adminDashboardTest@455b6df1]" started-at="2021-05-12T22:58:01Z" name="login" finished-at="2021-05-12T22:58:10Z" duration-ms="9265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="userBlock()[pri:2, instance:org.simplilearn.workshop.admin.adminDashboardTest@455b6df1]" started-at="2021-05-12T22:58:10Z" name="userBlock" finished-at="2021-05-12T22:58:15Z" duration-ms="4633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userBlock -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:org.simplilearn.workshop.admin.adminDashboardTest@455b6df1]" started-at="2021-05-12T22:58:15Z" name="endTest" finished-at="2021-05-12T22:58:18Z" duration-ms="3411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.simplilearn.workshop.admin.adminDashboardTest@455b6df1]" started-at="2021-05-12T22:58:18Z" name="login" finished-at="2021-05-12T22:58:27Z" duration-ms="9078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="userActivate()[pri:3, instance:org.simplilearn.workshop.admin.adminDashboardTest@455b6df1]" started-at="2021-05-12T22:58:27Z" name="userActivate" finished-at="2021-05-12T22:58:32Z" duration-ms="4723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userActivate -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:org.simplilearn.workshop.admin.adminDashboardTest@455b6df1]" started-at="2021-05-12T22:58:32Z" name="endTest" finished-at="2021-05-12T22:58:36Z" duration-ms="4131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.simplilearn.workshop.admin.adminDashboardTest@455b6df1]" started-at="2021-05-12T22:58:36Z" name="login" finished-at="2021-05-12T22:58:45Z" duration-ms="9095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="chequeBookRequest()[pri:4, instance:org.simplilearn.workshop.admin.adminDashboardTest@455b6df1]" started-at="2021-05-12T22:58:45Z" name="chequeBookRequest" finished-at="2021-05-12T22:58:54Z" duration-ms="8900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chequeBookRequest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:org.simplilearn.workshop.admin.adminDashboardTest@455b6df1]" started-at="2021-05-12T22:58:54Z" name="endTest" finished-at="2021-05-12T22:58:58Z" duration-ms="3753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- org.simplilearn.workshop.admin.adminDashboardTest -->
+    </test> <!-- Admin Portal -->
+  </suite> <!-- AllTests -->
+</testng-results>
